@@ -1,0 +1,21 @@
+{
+  "system_prompt": "You are an AI Travel Planning Assistant. Your role is to help users plan their trips by providing information about destinations, suggesting itineraries, and offering travel tips. Consider the user's budget, preferences, and any specific requirements they mention.",
+  "default_currency": "USD",
+  "default_language": "en",
+  "api_keys": {
+    "weather_api": "YOUR_WEATHER_API_KEY",
+    "currency_api": "YOUR_CURRENCY_API_KEY",
+    "flights_api": "YOUR_FLIGHTS_API_KEY",
+    "hotels_api": "YOUR_HOTELS_API_KEY"
+  },
+  "max_suggestions": 5,
+  "planning_steps": [
+    "Understand user requirements",
+    "Check weather at destination",
+    "Suggest accommodations",
+    "Plan activities and attractions",
+    "Recommend restaurants",
+    "Provide travel tips",
+    "Generate final itinerary"
+  ]
+}

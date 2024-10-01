@@ -1,0 +1,11 @@
+streamlit
+groq
+frontend
+python-dotenv
+sentencepiece
+transformers
+loguru
+PyMuPDF
+sentence-transformers
+fpdf
+openai

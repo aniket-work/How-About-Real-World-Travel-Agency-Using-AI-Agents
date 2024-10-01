@@ -1,0 +1,26 @@
+# Trip Planner Settings
+
+# General Settings
+app_name: "AI Trip Planner"
+version: "1.0.0"
+debug_mode: false
+
+# Agent Settings
+initial_budget: 2000
+max_planning_turns: 15
+
+# UI Settings
+theme: "light"
+display_debug_info: false
+
+# API Limits
+api_rate_limit: 100
+api_timeout: 30
+
+# Cache Settings
+enable_cache: true
+cache_expiry: 3600  # in seconds
+
+# Logging
+log_level: "INFO"
+log_file: "trip_planner.log"

@@ -1,0 +1,33 @@
+# AI Model Configurations
+
+default_model: "gpt-3.5-turbo"
+
+models:
+  gpt-3.5-turbo:
+    type: "chat"
+    max_tokens: 4096
+    temperature: 0.7
+    top_p: 1.0
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+
+  gpt-4:
+    type: "chat"
+    max_tokens: 8192
+    temperature: 0.9
+    top_p: 1.0
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+
+  text-davinci-003:
+    type: "completion"
+    max_tokens: 2048
+    temperature: 0.7
+    top_p: 1.0
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+
+model_selection:
+  default: "gpt-3.5-turbo"
+  high_complexity: "gpt-4"
+  fallback: "text-davinci-003"
