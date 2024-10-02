@@ -40,7 +40,7 @@ class TravelAgent:
         self.model = 'mixtral-8x7b-32768'
         logger.info("TravelAgent initialized")
 
-    def plan_trip(self, user_input, max_turns=15):
+    def plan_trip(self, user_input, max_turns=1):
         logger.info(f"Starting trip planning for user input: {user_input}")
         self.messages.append({"role": "user", "content": user_input})
 
